@@ -85,7 +85,7 @@
 
   .whatsapp-box {
     height: 18vh;
-    width: 80vw;
+    width: 90vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
   }
@@ -97,12 +97,16 @@
   }
 
   .whatsapp-box_number {
-    font-size: 1em;
-    padding-bottom: 40%;
+    font-size: 0.9em;
+    line-height: 60%;
+    grid-column: 8/13;
+    grid-row: 2;
+
   }
 
   .whatsapp-box_link {
     font-size: 0.9em;
+
   }
 
 }

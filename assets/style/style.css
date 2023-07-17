@@ -265,7 +265,7 @@
   }
   .whatsapp-box {
     height: 18vh;
-    width: 80vw;
+    width: 90vw;
     display: grid;
     grid-template-rows: repeat(1fr 2fr 1fr);
   }
@@ -275,8 +275,10 @@
     margin-bottom: 15%;
   }
   .whatsapp-box_number {
-    font-size: 1em;
-    padding-bottom: 40%;
+    font-size: 0.9em;
+    line-height: 60%;
+    grid-column: 8/13;
+    grid-row: 2;
   }
   .whatsapp-box_link {
     font-size: 0.9em;
@@ -643,8 +645,8 @@
     justify-self: start;
   }
   .footer__corner-bottom,
-.footer__corner-top,
-.footer__line {
+  .footer__corner-top,
+  .footer__line {
     display: none;
   }
 }
@@ -836,7 +838,7 @@ main {
     padding: 0 4%;
   }
   .form-wrapper,
-.main-text-wrapper {
+  .main-text-wrapper {
     padding: 0;
     margin: 3rem auto;
   }
@@ -854,7 +856,7 @@ main {
     padding: 0 4%;
   }
   .form-wrapper,
-.main-text-wrapper {
+  .main-text-wrapper {
     padding: 0;
     margin: 3rem auto;
   }
@@ -862,10 +864,8 @@ main {
     min-width: 470px;
   }
   .container__additional {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -895,7 +895,6 @@ main {
     border: 0.3rem solid #D49C6B;
   }
   .form__body {
-    min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
     padding: 8%;
@@ -909,11 +908,11 @@ main {
     min-height: 3rem;
   }
   .file__button,
-.form__button {
+  .form__button {
     font-size: 0.6em;
   }
   .form-wrapper,
-.main-text-wrapper {
+  .main-text-wrapper {
     padding: 0;
     margin: 1rem auto;
   }
@@ -937,7 +936,6 @@ main {
     text-align: center;
   }
   .container__additional {
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -952,20 +950,20 @@ main {
     margin: 0 auto;
   }
   .carousel,
-.projects_slider {
+  .projects_slider {
     display: flex;
     margin: 0 auto;
   }
   .card-text,
-.title {
+  .title {
     font-size: 1em;
   }
   .feedback__line {
     max-width: 0 auto;
   }
   .carousel-control-prev,
-.carousel-control-next,
-.carousel-indicators {
+  .carousel-control-next,
+  .carousel-indicators {
     display: none;
   }
   .main-text__img {
