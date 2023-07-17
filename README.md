@@ -18,7 +18,7 @@ This project is a site for the opportunity to see the work of a repair company, 
 
 ## Result
 
-[Сlick me]([(https://nellyktv.github.io/repair_is_easy/)])
+[Сlick me]([https://nellyktv.github.io/repair_is_easy])
 <p><img src="assets/img/forReadme1.jpg" alt="result"/>
 </p>
 
